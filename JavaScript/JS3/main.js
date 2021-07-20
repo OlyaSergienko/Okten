@@ -108,3 +108,4 @@ console.log(nums);
 //добавит на место вырезаных елементов - 'qwsad', 999
 
 
+// hjgjhgjhgj
