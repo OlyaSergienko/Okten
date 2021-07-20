@@ -1,0 +1,10 @@
+.users-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.users-box div{
+    width: 20%;
+    background: silver;
+    margin: 3px;
+}

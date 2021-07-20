@@ -1,0 +1,15 @@
+.cakes{
+    background: silver;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cake{
+    width: 300px;
+    background: lightpink;
+    margin-bottom: 10px;
+}
+
+img {
+    height: 100px;
+}

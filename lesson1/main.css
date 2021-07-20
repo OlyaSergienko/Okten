@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    background: pink;
+    color: cornflowerblue
+}
+
+.yyy {
+    text-align: justify;
+    background: lightskyblue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.xxx {
+    background: pink;
+}
+
+img{
+    height: 350px;
+}

@@ -1,0 +1,75 @@
+.simpson {
+    display: flex;
+}
+
+.simpson div{
+    width: 20%;
+    background: #eae8e8;
+    margin: 3px;
+    text-align: center;
+}
+.simpson img{
+    height: 100px;
+
+}
+
+/*-------------*/
+
+.product-card{
+    display: flex;
+}
+
+.product-card div{
+    width: 25%;
+    background: lightgreen;
+    margin: 3px;
+    text-align: center;
+}
+
+.product-title {
+    text-transform: uppercase;
+}
+
+.product-image{
+    height: 200px;
+}
+
+/*---------------------*/
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-card{
+    width: 19%;
+    background: #ffffc8;
+    margin: 3px;
+    text-align: center;
+}
+
+/*-------------------*/
+
+.users-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-block{
+    width: 49%;
+    background: #ffffc8;
+    margin: 3px;
+    text-align: center;
+}
+
+.address-block{
+    color: darkblue;
+    box-sizing: border-box;
+    border: 5px solid silver;
+}
+
+
+
+
+
+

@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+</head>
+<body>
+
+    <script>
+
+        // - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
+        //     Вивести кожну змінну за допомогою: console.log , document.write
+
+        let a = 'hello';
+        document.write(a, '<br>');
+        console.log(a);
+
+        let b = 'owu';
+        document.write(b, '<br>');
+        console.log(b);
+
+        let c = 'com';
+        document.write(c, '<br>');
+        console.log(c);
+
+        let d = 'ua';
+        document.write(d, '<br>');
+        console.log(d);
+
+       let someNum1 = 1;
+        document.write(someNum1, '<br>');
+        console.log(someNum1);
+
+        let someNum2 = 10;
+        document.write(someNum2, '<br>');
+        console.log(someNum2);
+
+        let someNum3 = -999;
+        document.write(someNum3, '<br>');
+        console.log(someNum3);
+
+        let someNum4 = 123;
+        document.write(someNum4, '<br>');
+        console.log(someNum4);
+
+        let someNum5 = 3.14;
+        document.write(someNum5, '<br>');
+        console.log(someNum5);
+
+        let someNum6 = 2.7;
+        document.write(someNum6, '<br>');
+        console.log(someNum6);
+
+        let someNum7 = 16;
+        document.write(someNum7, '<br>');
+        console.log(someNum7);
+
+        let trust = true;
+        document.write(trust, '<br>');
+        console.log(trust);
+
+        let fall = false;
+        document.write(fall, '<br>');
+        console.log(fall);
+
+        // - Переприсвоїти кожну змінну з завдання вище на будь які довільні значення.
+        // Вивести кожну змінну за допомогою: console.log , alert, document.write
+
+        a = 'bye';
+        document.write(a, '<br>');
+        console.log(a);
+
+        b = 'school';
+        document.write(b, '<br>');
+        console.log(b);
+
+        c = 'web';
+        document.write(c, '<br>');
+        console.log(c);
+
+        d = 'kiev';
+        document.write(d, '<br>');
+        console.log(d);
+
+        someNum1 = 2;
+        document.write(someNum1, '<br>');
+        console.log(someNum1);
+
+        someNum2 = 20;
+        document.write(someNum2, '<br>');
+        console.log(someNum2);
+
+        someNum3 = -999000;
+        document.write(someNum3, '<br>');
+        console.log(someNum3);
+
+        someNum4 = 123456;
+        document.write(someNum4, '<br>');
+        console.log(someNum4);
+
+        someNum5 = 6.66666;
+        document.write(someNum5, '<br>');
+        console.log(someNum5);
+
+        someNum6 = 9.9;
+        document.write(someNum6, '<br>');
+        console.log(someNum6);
+
+        someNum7 = 27;
+        document.write(someNum7, '<br>');
+        console.log(someNum7);
+
+        // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. Зконкатенувати їх в одну змінну person.
+
+       let firstName = 'Olga';
+       let middleName = 'Sergiivna';
+       let lastName = 'Sergienko';
+       let person = `${firstName} ${middleName} ${lastName}`;
+       document.write('Person - ' + firstName + ' ' + middleName + ' ' + lastName, '<br>');
+       console.log(person);
+
+        // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
+        // Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років"v
+
+        let name = prompt('enter your name');
+
+        if (name) {
+            document.write(`Вітаю ${name} `);
+        } else {
+            document.write('bad');
+        }
+
+        let middleName1 = prompt('enter your middleName');
+
+        if (middleName1) {
+            document.write(`${middleName1}. `);
+        } else {
+            document.write('bad');
+        }
+
+        let age = prompt('how old are you?')
+
+        if (age) {
+            document.write(`Тобі ${age} років.`)
+        } else {
+            document.write('bad');
+        }
+
+        // - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+        // let a = 100; let b = '100'; let c = true;
+
+        let a1 = 100;
+        console.log(typeof a1);
+        let b1 = '100';
+        console.log(typeof b1);
+        let c1 = true;
+        console.log(typeof c1);
+
+        // - Поставет відповідний оператор в виразах що б вийшов відповідний результат.
+        // В однакових виразаї не використовувати однакові оператори!!!
+        // 5 ? 6 -> true
+        // 5 ? 6 -> false
+        // 5 ? 6 -> false
+        // 5 ? 6 -> false
+        // 10 ? 10 -> true
+        // 10 ? 10 -> true
+        // 10 ? 10 -> false
+        // 10 ? 10 -> false
+        // 10 ? 10 -> false
+        // 123 ? '123' -> false
+        // 123 ? '123' -> true
+
+        let xxx = true;
+        xxx = 5 < 6;
+        console.log(xxx);
+        xxx = 5 > 6;
+        console.log(xxx);
+        xxx = 5 == 6;
+        console.log(xxx);
+        xxx = 5 >= 6;
+        console.log(xxx);
+        xxx = 10 == 10;
+        console.log(xxx);
+        xxx = 10 <= 10;
+        console.log(xxx);
+        xxx = 10 > 10;
+        console.log(xxx);
+        xxx = 10 !== 10;
+        console.log(xxx);
+        xxx = 10 < 10;
+        console.log(xxx);
+        xxx = 123 === '123';
+        console.log(xxx);
+        xxx = 123 == '123';
+        console.log(xxx);
+
+    </script>
+
+</body>
+</html>

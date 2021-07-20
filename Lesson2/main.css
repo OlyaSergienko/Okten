@@ -1,0 +1,13 @@
+.target {
+    background: silver;
+    height: 200px;
+    width: 400px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 900;
+
+    padding: 20px;
+    box-sizing: border-box;
+    border: 10px solid blue;
+    margin: 50px 100px;
+}

@@ -1,0 +1,84 @@
+.picture1{
+    width: 1400px;
+}
+
+.a{
+    background: yellowgreen;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+.wrap{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.b{
+    background: blue;
+    margin-right: 5px;
+    width: 1000px;
+}
+
+.c{
+    background: blue;
+    width: 400px;
+}
+hr{
+    margin: 30px;
+}
+
+.header{
+    background: blue;
+    height: 100px;
+}
+.nav{
+    background: darkblue;
+    height: 70px;
+}
+.wrap1{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.main{
+    background: cornflowerblue;
+    width: 1000px;
+}
+.aside{
+    background: #5e5373;
+    width: 400px;
+}
+.footer{
+    background: lightskyblue;
+    height: 100px;
+}
+.header1, .footer1{
+    background: yellow;
+    height: 100px;
+}
+.wrap2{
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.menu{
+    background: grey;
+    width: 400px;
+}
+.posts{
+    background: cornflowerblue;
+    width: 1000px;
+}
+.post{
+    background: pink;
+    height: 250px;
+}
+.post1{
+    background: hotpink;
+    height: 250px;
+}
